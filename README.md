@@ -10,7 +10,7 @@ Feedstock license: BSD 3-Clause
 Summary: Loaders and dumpers for PyYAML
 
 This module provides loaders and dumpers for PyYAML. Currently, an OrderedDict
-loader/dumper is implemented, allowing to keep items order when loading resp.
+loader/dumper is implemented, allowing to keep items order when loading respectively
 dumping a file from/to an OrderedDict.
 
 
