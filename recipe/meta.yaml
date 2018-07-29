@@ -37,7 +37,7 @@ about:
 
   description: |
     This module provides loaders and dumpers for PyYAML. Currently, an OrderedDict
-    loader/dumper is implemented, allowing to keep items order when loading resp.
+    loader/dumper is implemented, allowing to keep items order when loading respectively
     dumping a file from/to an OrderedDict.
   dev_url: https://github.com/Phynix/yamlloader
 
