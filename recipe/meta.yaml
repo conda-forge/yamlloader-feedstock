@@ -1,6 +1,6 @@
 {% set name = "yamlloader" %}
 {% set version = "0.5.5" %}
-{% set sha256 = "ea7b1e855d58cc80ba45c9d05566c7bbf3893d1335797a17d372145f81c0cb8a" %}
+{% set sha256 = "dcab5f16b39bb03d10dda4cd4f30c943675ec4c7771807fc67e7f1bb319bf4c8" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
 
   description: |
     This module provides loaders and dumpers for PyYAML. Currently, an OrderedDict
-    loader/dumper is implemented, allowing to keep items order when loading resp.
+    loader/dumper is implemented, allowing to keep items order when loading respectively
     dumping a file from/to an OrderedDict.
   dev_url: https://github.com/Phynix/yamlloader
 
