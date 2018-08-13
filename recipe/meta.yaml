@@ -1,6 +1,6 @@
 {% set name = "yamlloader" %}
 {% set version = "0.5.5" %}
-{% set sha256 = "ea7b1e855d58cc80ba45c9d05566c7bbf3893d1335797a17d372145f81c0cb8a" %}
+{% set sha256 = "814c39f5f5c4e2d201e8421f4869221dcba0561fc30857d4437395b5e50b3162" %}
 
 package:
   name: {{ name|lower }}
