@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - pyyaml
 
 test:
@@ -43,5 +43,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - mayou36
+    - jonas-eschle
     - rasmusagren
