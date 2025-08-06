@@ -1,6 +1,6 @@
 {% set name = "yamlloader" %}
-{% set version = "1.5.1" %}
-{% set sha256 = "8dece19b050acb1c6a8ca14aa30793388f9be154f734b826541f9a1828d41cec" %}
+{% set version = "1.5.2" %}
+{% set sha256 = "c10ac1321a626b1ca8b09d3f3afe9855b818391c59992a76b65e4a2d95eac41b" %}
 
 package:
   name: {{ name|lower }}
@@ -29,6 +29,7 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pyyaml
   imports:
     - yamlloader
 
